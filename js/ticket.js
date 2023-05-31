@@ -12,7 +12,7 @@ let dataSeance = date.toLocaleDateString("ru-Ru", {
     month: "long",
     day: "numeric"
 });
-
+    
 let totalPrice = 0;
 const seatInfo = document.querySelector('.ticket__details.ticket__chairs');
 for (let seat of selectedSeats) {
@@ -47,11 +47,12 @@ const QRgenetator = `
 const qrcode = QRCreator(QRgenetator);
 
 // const someFunctWithSelect = () => {
-const content = (qrcode) => {
-    return qrcode.error
-        ? `недопустимые исходные данные ${qrcode.error}`
-        : qrcode.result;
+const content = (qrcode) =>{
+return qrcode.error
+    ? `недопустимые исходные данные ${qrcode.error}`
+    : qrcode.result;
 };
 
 document.getElementById("qrcode").append("", content(qrcode));
+
 
