@@ -38,7 +38,7 @@ _Билет_  QR-код c уникальным кодом бронировани
 
 ### Получилось в итоге
 
-***Git-репозиторий***, содержащий в себе необходимые файлы проекта, и файл Readme, и ссылка (https://github.com/fullstackmalina/js-cp-diploma-cinema) на проект, опубликованная на ***githubPage***
+***Git-репозиторий***, содержащий в себе необходимые файлы проекта, и файл Readme, и ссылка (https://fullstackmalina.github.io/js-cp-diploma-CINEMA/) на проект, опубликованная на ***githubPage***
 
 ### Используемые технологии
 Стэк технологий: HTML, CSS, JavaScript, Git
