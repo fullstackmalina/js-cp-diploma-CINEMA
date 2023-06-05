@@ -11,6 +11,7 @@ html {
 }
 
 body {
+  min-width: 320px;
   background-image: url("../i/background.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -184,6 +185,7 @@ body {
   font-size: 1.4rem;
   background-color: #16A6AF;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 .buying {
@@ -235,6 +237,13 @@ body {
   text-align: center;
   background-color: #171D24;
   padding: 1.5rem 3rem 1.5rem;
+}
+
+@media (max-width: 344px) {
+  .conf-step {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .conf-step__wrapper {
@@ -433,17 +442,30 @@ body {
 
 /*================================================================*/
 
-.movie .movie-seances__hall .acceptin-button-disabled {
- background-color: #888888;
- pointer-events: none
-}
-
-.acceptin-button:disabled {
-  background-color: #888888;
-  pointer-events: none
- }
-
  #qrcode > * {
-  width: 100%; 
+  width: 100%
  }
+
+ @media screen and (max-width: 425px) {
+   .movie .movie__info {
+     flex-direction: column;
+   }
+
+   .movie .movie__description {
+     padding-left: 0;
+     margin-bottom: 3rem;
+   }
+
+   .movie .movie__poster {
+     height: auto;
+     width: 50%;
+     margin: auto;
+   }
+
+   .movie .movie__poster .movie__poster-image {
+     height: auto;
+     width: 100%;
+   }
+ }
+
 

@@ -41,13 +41,8 @@ _Билет_  QR-код c уникальным кодом бронировани
 ***Git-репозиторий***, содержащий в себе необходимые файлы проекта, и файл Readme, и ссылка (https://github.com/fullstackmalina/js-cp-diploma-cinema) на проект, опубликованная на ***githubPage***
 
 ### Используемые технологии
-JavaScript: код написан на JavaScript, популярном языке программирования, используемом для веб-разработки.
+Стэк технологий: HTML, CSS, JavaScript, Git
+
 
 HTML: код взаимодействует с документом HTML, манипулируя элементами DOM и отображая динамическое содержимое.
 
-### Описание файлов JS
-- [CreateRequest](./md/createRequest.md)
-- [Hall](./md/hall.md)
-- [index](./md/index.md)
-- [Payment](./md/payment.md)
-- [Ticket](./md/ticket.md)
